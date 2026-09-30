@@ -119,7 +119,7 @@ function dateLabel(str) {
 // ══════════════════════════════════════════════════════════════════════════════
 // COMMANDES
 // ══════════════════════════════════════════════════════════════════════════════
-const MAX_COTES = 10;
+const MAX_COTES = 6; // Discord limite a 25 options par commande (6x3 + 5 fixes = 23)
 
 // /create-matchday
 const createBuilder = new SlashCommandBuilder()
